@@ -1,21 +1,120 @@
+@font-face {
+    font-family: "digital-7";
+    src: url(fonts/digital-7.ttf);
+}
+
+@font-face {
+    font-family: "Bubblegum Sans";
+    src: url(fonts/BubblegumSans-Regular.ttf);
+}
+
 body {
     margin: 0;
     height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .canvas {
-    height: 70vh;
+    height: 60vh;
     max-width: 90vw;
     aspect-ratio: 2/3;
+
     border: 1px solid black;
+    box-shadow: 0 4px 8px 0 black, 
+                0 6px 20px 0 lightblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.solar {
-    height: 10vh;
-    max-width: 80vw;
-    aspect-ratio: 4/1;
+.header {
+    height: 7%;
+    max-width: 90%;
+    aspect-ratio: 10/1;
+
+    margin-top: 5%;
+    padding-top: 1vh;
+
+    display: flex;
+    gap: 0.5%;
+}
+
+.solar{
+    height: 100%;
+    aspect-ratio: 2/3;
+    border: 2px solid black;
+
+    background-image: url("images/solar-panel.png");
+    background-size:cover;
+}
+
+.brand{
+    margin-right: 1%;
+    margin-left: auto;
+
+    max-width:50%;
+    aspect-ratio: 3/1;
+
+    font-size: 1.8vh;
+    font-weight: bold;
+    font-family: "Bubblegum Sans";
+}
+
+.display {
+    height: 12%;
+    max-width: 90%;
+    aspect-ratio: 10/1;
+
     border: 1px solid black;
+    box-shadow: 2px 2px grey ;
+
+    margin-top: 4%;
+    padding-right: 2%;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.digit {
+    height: 100%;
+    aspect-ratio: 1/3;
+
+    font-family: digital-7;
+    font-size: 6vh;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    border: 1px solid red;
+}
+
+.operation {
+    height: 3%;
+    max-width: 90%;
+    aspect-ratio: 20/1;
+
+    margin-top: 1%;
+    gap: 1%;
+}
+
+.operator {
+    padding-top: 2%;
+    font-size: 3vh;
+}
+
+.buttons {
+    height: 60%;
+    max-width: 90%;
+    aspect-ratio: 2/1;
+
+    margin-top: 5%;
+
+    border: 1px solid black;
+    box-shadow: 2px 2px grey ;
 }
