@@ -1,5 +1,21 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .canvas {
-    width: 400px;
+    height: 70vh;
+    max-width: 90vw;
     aspect-ratio: 2/3;
+    border: 1px solid black;
+}
+
+.solar {
+    height: 10vh;
+    max-width: 80vw;
+    aspect-ratio: 4/1;
     border: 1px solid black;
 }
