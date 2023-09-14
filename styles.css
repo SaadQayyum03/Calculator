@@ -1,0 +1,5 @@
+.canvas {
+    width: 400px;
+    aspect-ratio: 2/3;
+    border: 1px solid black;
+}
