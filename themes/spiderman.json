@@ -7,7 +7,7 @@
     "canvas-box-shadow": "0 4px 8px 0 #1F3D8A",
     "solar-border-color": "#E81D25",
     "brand-font-color": "#FFFFFF",
-    "display-background-color": "#3D7BE9",
+    "display-background-color": "black",
     "display-color": "#E81D25",
     "display-border-color": "black",
     "display-box-shadow": "2px 2px #2A56C6",
