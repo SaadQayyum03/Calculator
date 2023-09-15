@@ -14,7 +14,7 @@
     "digit-color": "#795548", 
     "buttons-box-shadow": "1px 1px #FFD600",
     "buttons-border-color": "black",
-    "btn-background-color": "#FFEB3B",
+    "btn-background-color": "white",
     "btn-hover-box-shadow": "2px 2px 4px 0 #FFC107",
     "btn-hover-background-color": "#FFD54F",
     "btn-hover-color": "#FFF"
