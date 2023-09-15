@@ -1,1 +1,1 @@
-fetchTheme("spongebob").then(applyTheme);
+fetchTheme("spiderman").then(applyTheme);
