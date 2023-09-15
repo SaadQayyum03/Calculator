@@ -1,1 +1,1 @@
-fetchTheme("spiderman").then(applyTheme);
+fetchTheme("defaulr").then(applyTheme);

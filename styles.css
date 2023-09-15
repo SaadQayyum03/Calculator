@@ -8,6 +8,11 @@
     src: url(fonts/BubblegumSans-Regular.ttf);
 }
 
+@font-face {
+    font-family: "LcdSolid";
+    src: url("fonts/LcdSolid-VPzB.ttf");
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -158,6 +163,7 @@ body {
     background-color: #FF6B6B; 
 
     font-size: 3vh;
+    font-family: LcdSolid;
 
     height: 90%;
     aspect-ratio: 1/1;
