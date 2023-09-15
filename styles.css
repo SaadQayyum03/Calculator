@@ -15,6 +15,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    color: #003366;  
+    background-color: #0099FF; 
 }
 
 .canvas {
@@ -22,6 +25,7 @@ body {
     max-width: 90vw;
     aspect-ratio: 2/3;
 
+    background-color: #FFECB3;
     border: 1px solid black;
     box-shadow: 0 4px 8px 0 black, 
                 0 6px 20px 0 lightblue;
@@ -71,6 +75,8 @@ body {
 
     border: 1px solid black;
     box-shadow: 2px 2px grey ;
+    background-color: #B2EFEA; 
+    color: #00796B;
 
     margin-top: 4%;
     padding-right: 2%;
@@ -91,7 +97,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
 
-    border: 1px solid red;
+    color: #003366;
 }
 
 .operation {
@@ -115,6 +121,41 @@ body {
 
     margin-top: 5%;
 
-    border: 1px solid black;
     box-shadow: 2px 2px grey ;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 7%;
+    
+    height: 18%;
+    max-width: 100%;
+    aspect-ratio: 10/1;
+
+
+    margin-top: 1%;
+}
+
+.top {
+    margin-top: 4% 
+}
+
+.btn {
+    border-radius: 20%;
+    background-color: #FF6B6B; 
+
+    height: 90%;
+    aspect-ratio: 1/1;
+
+    transition: box-shadow 0.2s;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 20px 0 #FF6B6B;
+    background-color: #13C4A3;
+    color: #FFECB3;
+
 }
