@@ -1,0 +1,21 @@
+{
+    "name": "Spider-Man",
+    "body-color": "#E81D25",
+    "body-background-color": "#3D7BE9",
+    "canvas-background-color": "#B01317",
+    "canvas-border-color": "black",
+    "canvas-box-shadow": "0 4px 8px 0 #1F3D8A",
+    "solar-border-color": "#E81D25",
+    "brand-font-color": "#FFFFFF",
+    "display-background-color": "#3D7BE9",
+    "display-color": "#E81D25",
+    "display-border-color": "black",
+    "display-box-shadow": "2px 2px #2A56C6",
+    "digit-color": "#E81D25",
+    "buttons-box-shadow": "1px 1px #3D7BE9",
+    "buttons-border-color": "black",
+    "btn-background-color": "lightblue",
+    "btn-hover-box-shadow": "2px 2px 4px 0 #3D7BE9",
+    "btn-hover-background-color": "#2A56C6",
+    "btn-hover-color": "#FFFFFF"
+}

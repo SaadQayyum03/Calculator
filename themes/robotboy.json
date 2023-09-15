@@ -1,0 +1,21 @@
+{
+    "name": "Robot-Boy",
+    "body-color": "#E8EAF3",
+    "body-background-color": "#B2E3FF",
+    "canvas-background-color": "#F0F2F7",
+    "canvas-border-color": "black",
+    "canvas-box-shadow": "0 4px 8px 0 #A8E0FF",
+    "solar-border-color": "#8A8C90",
+    "brand-font-color": "#1A1C20",
+    "display-background-color": "#D6D8DC",
+    "display-color": "#191B1F",
+    "display-border-color": "#B0B2B6",
+    "display-box-shadow": "2px 2px #A8E0FF",
+    "digit-color": "#252728",
+    "buttons-box-shadow": "1px 1px #A8E0FF",
+    "buttons-border-color": "#C0C3C8",
+    "btn-background-color": "#E5E7EC",
+    "btn-hover-box-shadow": "2px 2px 4px 0 #A8E0FF",
+    "btn-hover-background-color": "#D6D8DC",
+    "btn-hover-color": "#191B1F"
+}

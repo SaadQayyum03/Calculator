@@ -1,0 +1,21 @@
+{
+    "name": "default",
+    "body-color": "#003366",
+    "body-background-color": "#0099FF",
+    "canvas-background-color": "#FFECB3",
+    "canvas-border-color": "#000000",
+    "canvas-box-shadow": "0 4px 8px 0 black, 0 6px 20px 0 lightblue",
+    "solar-border-color": "#000000",
+    "brand-font-color": "#003366",
+    "display-background-color": "#B2EFEA",
+    "display-color": "#00796B",
+    "display-border-color": "#000000",
+    "display-box-shadow": "2px 2px grey",
+    "digit-color": "#003366",
+    "buttons-box-shadow": "2px 2px grey",
+    "buttons-border-color": "#000000",
+    "btn-background-color": "#FF6B6B",
+    "btn-hover-box-shadow": "4px 4px 20px 0 #FF6B6B",
+    "btn-hover-background-color": "#13C4A3",
+    "btn-hover-color": "#FFECB3"
+}

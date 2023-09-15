@@ -1,0 +1,1 @@
+fetchTheme("default").then(applyTheme);
