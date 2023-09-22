@@ -1,6 +1,6 @@
 fetchTheme("salad").then(applyTheme);
 let themeIndex = 0;
-const themes = ["salad", "robotboy", "spiderman", "spongebob"];
+const themes = ["salad", "robotboy", "spiderman", "spongebob", "joker"];
 const display = document.querySelector(".display > .digit");
 display.textContent = 0;
 

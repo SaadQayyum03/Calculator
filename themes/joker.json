@@ -1,0 +1,21 @@
+{
+    "name": "Joker",
+    "body-color": "#FFC857",
+    "body-background-color": "#521262",
+    "canvas-background-color": "#E60073",
+    "canvas-border-color": "#521262",
+    "canvas-box-shadow": "0 4px 8px 0 #007F5F",
+    "solar-border-color": "#E56B6F",
+    "brand-font-color": "#FFC857",
+    "display-background-color": "#007F5F",
+    "display-color": "#FFC857",
+    "display-border-color": "#521262",
+    "display-box-shadow": "2px 2px #007F5F",
+    "digit-color": "#FFC857",
+    "buttons-box-shadow": "1px 1px #007F5F",
+    "buttons-border-color": "#521262",
+    "btn-background-color": "#007F5F",
+    "btn-hover-box-shadow": "2px 2px 4px 0 #E56B6F",
+    "btn-hover-background-color": "#E56B6F",
+    "btn-hover-color": "#521262"
+}
