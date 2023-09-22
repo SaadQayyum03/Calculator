@@ -1,4 +1,6 @@
 fetchTheme("salad").then(applyTheme);
+let themeIndex = 0;
+const themes = ["salad", "robotboy", "spiderman", "spongebob"];
 const display = document.querySelector(".display > .digit");
 display.textContent = 0;
 
@@ -32,6 +34,16 @@ const equal = document.querySelector(".eq");
 equal.addEventListener("click", performEquals);
 
 document.addEventListener("keydown", updateDisplayWindow);
+document.body.addEventListener("click", (e)=>{
+    console.log("hello");
+    if (e.target === document.body) {
+        themeIndex++;
+        if (themeIndex >= themes.length){
+            themeIndex = 0;
+        }
+        fetchTheme(themes[themeIndex]).then(applyTheme);
+    }
+});
 
 function updateDisplayScreen(e) {
     const number = e.target.textContent;
